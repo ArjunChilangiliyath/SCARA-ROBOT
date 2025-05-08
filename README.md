@@ -33,7 +33,8 @@ Upload the code from `arduino/scara_controller.ino` to your Arduino board using 
 
 Update `hand_gesture.py` with your correct COM port:
 
-```python
+`python
+
 arduino = serial.Serial(port='COM3', baudrate=9600, timeout=1)
 
-###### 3. Run the flutter code alone to control the arm via a mobile app (flutter.py)
+### 3. Run the flutter code alone to control the arm via a mobile app (flutter.py)
