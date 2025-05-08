@@ -27,11 +27,11 @@ This project provides the Arduino and Python code to control a SCARA (Selective 
 ## How to Use
 
 ### 1. Upload Arduino Code
-Upload the code from `arduino/scara_controller.ino` to your Arduino board using the Arduino IDE.
+Upload the code from `SCARA-ROBOT/scara_controller.ino` to your Arduino board using the Arduino IDE.
 
 ### 2. Run Python Serial Interface
 
-Update `hand_gesture.py` with your correct COM port:
+Update `SCARA-ROBOT/hand_gesture.py` with your correct COM port:
 
 `python
 
