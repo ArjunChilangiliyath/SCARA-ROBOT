@@ -3,7 +3,7 @@ This project provides the Arduino and Python code to control a SCARA (Selective 
 3 types of countrol are implemented
 1. Hand gesture control
 2. Control via a control panel
-3. Control via Flutter
+3. Control via Flutter (Android phone)
 
 ## 🛠️ Project Structure
 ## ⚙️ Hardware Requirements
@@ -38,3 +38,4 @@ Update `SCARA-ROBOT/hand_gesture.py` with your correct COM port:
 arduino = serial.Serial(port='COM3', baudrate=9600, timeout=1)
 
 ### 3. Run the flutter code alone to control the arm via a mobile app (flutter.py)
+- ensure same wifi is connected by the device and the android mobile  
