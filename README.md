@@ -37,5 +37,5 @@ Update `SCARA-ROBOT/hand_gesture.py` with your correct COM port:
 
 arduino = serial.Serial(port='COM3', baudrate=9600, timeout=1)
 
-### 3. Run the flutter code alone to control the arm via a mobile app (flutter.py)
+### 3. Run the flutter code alone to control the arm via a mobile app (flutter.dart)
 - ensure same wifi is connected by the device and the android mobile  
